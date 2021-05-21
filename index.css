@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 90%;
+    background-image: url("images/swirl_dark.png");
+    font-family: 'Exo', sans-serif;
+}
+
+form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+input {
+    text-align: center;
+    border: none;
+    padding: 1.5em 2em;
+    margin-bottom: 1em;
+    border-radius: 30px;
+    text-transform: lowercase;
+    
+}
+
+button {
+    padding: 1.5em 6.5em;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #ededed;
+    color: #7a7a7a;
+}
+
+button:hover,
+button:focus {
+    transform: translateY(10px);
+}
+
+
+
+input,
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+}
+
+.light {
+    padding: 1em;
+    position: absolute;
+    margin-bottom: -455px;
+}
+
+img {
+    width: 2.5em;  
+    cursor: pointer; 
+    filter: invert(1);
+}
+
+
+@media (min-width: 780px) {
+    form {
+        flex-direction: row;
+    }
+    
+    input {
+        margin-right: 1em;
+        padding: 1em .8em;
+    }
+    
+    button {
+        padding: .9em 5em;
+        margin-bottom: 13px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .light {
+        position: absolute;
+        margin-bottom: -200px;
+    }
+}

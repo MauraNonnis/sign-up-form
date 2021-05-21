@@ -9,7 +9,7 @@ const form = document.getElementById('form')
 function first(e){
     if (this.style.filter = 'invert(1)') {
         this.style.filter = "none"
-        document.body.style.backgroundImage = 'url(images/swirl_pattern.png'
+        document.body.style.backgroundColor = "#fff"
         btn.style.backgroundColor = '#7d7d7d'
         btn.style.color = 'white'
         input.style.backgroundColor = '#d9d9d9'

@@ -5,7 +5,7 @@
 body {
     margin: 0 auto;
     width: 90%;
-    background-image: url("images/swirl_dark.png");
+    background-image: url("./swirl_dark.png");
     font-family: 'Exo', sans-serif;
 }
 
